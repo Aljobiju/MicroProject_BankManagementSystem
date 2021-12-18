@@ -13,7 +13,7 @@ else
 $sql = "Insert into users values (default,'$Email','$Password')";
 if ($conn->query($sql)=== TRUE)
 {
-  header("Location:./userhome.html");
+  header("Location:./userhome.php");
 
 }
 else

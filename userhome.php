@@ -20,9 +20,9 @@
                 <li><a href="#row4">Accounts</a></li>
                 <li><a href="#row4">Account Statements</a></li>
                 <li><a href="#row4">Fund Transfer</a></li>
-                <li><a href="feedback.html">Feedback</li>
+                <li><a href="feedback.php">Feedback</li>
             </ul>
-           <a href="index.html"> <button class="btn">Log Out </button></a>
+           <a href="index.php"> <button class="btn">Log Out </button></a>
         </nav>
         
           </head>
@@ -51,7 +51,7 @@
 
        
           <div class="card1" >
-            <a href="feedback.html"><img src="assets/images/feedback.png"  ></a>
+            <a href="feedback.php"><img src="assets/images/feedback.png"  ></a>
             <div class="container">
               <h4><b>Feedback</b></h4>
               

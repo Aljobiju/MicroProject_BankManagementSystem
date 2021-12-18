@@ -13,7 +13,7 @@ $sql = "Insert into data values (default,'$name','$feedback')";
 if ($conn->query($sql)=== TRUE)
 {
 //   echo '<script>alert("Feedback Submitted Successfully")</script>';
-   header("Location:./userhome.html");
+   header("Location:./userhome.php");
 }
 else
 {

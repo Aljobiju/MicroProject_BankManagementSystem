@@ -17,12 +17,12 @@
         <nav class="navbar">
             <img src="assets/images/logo5.png">
             <ul class="nav-links">
-                <li><a href="userhome.html">Accounts</a></li>
-                <li><a href="userhome.html">Account Statements</a></li>
-                <li><a href="userhome.html">Fund Transfer</a></li>
-                <li><a href="userhome.html">Feedback</li>
+                <li><a href="userhome.php">Accounts</a></li>
+                <li><a href="userhome.php">Account Statements</a></li>
+                <li><a href="userhome.php">Fund Transfer</a></li>
+                <li><a href="userhome.php">Feedback</li>
             </ul>
-            <a href="index.html"><button class="btn">Log Out</button></a>
+            <a href="index.php"><button class="btn">Log Out</button></a>
         </nav>
         
 </style>

@@ -9,13 +9,13 @@ if($result = $mysqli->query($sql)){
         while($row = $result->fetch_array()){ 
             //checking  
             if($row['mail']=='admin@gmail.com'){
-                header('Location: ./adminhome.html');
+                header('Location: ./adminhome.php');
             }
                 elseif($row['psw']==$Password){
-                    header('Location: ./userhome.html');
+                    header('Location: ./userhome.php');
                 }
             else{
-                header('Location: ./index.html');
+                header('Location: ./index.php');
             }
             } 
         }

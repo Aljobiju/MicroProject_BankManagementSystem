@@ -21,7 +21,7 @@
                 <a href="adminhome.html"><li>Add new Account</li></a>
                <a href="adminfeedback.php"> <li>Feedback</li></a>
             </ul>
-            <a href="index.html"><button class="btn">Log Out</button></a>
+            <a href="index.php"><button class="btn">Log Out</button></a>
         </nav>
 
 
