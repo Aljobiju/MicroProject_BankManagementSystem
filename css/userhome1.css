@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1% 2% 2% 1% ;  
+
+}
+.navbar img{
+    padding-left: 2%;
+    width: 20vw;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    width: 50%;
+}
+.navbar li{
+    font-size: 1.3vw;
+    color: #7B74E5;
+    letter-spacing: normal;
+}
+  
+  .container {
+    padding: 2px 30px;
+    height: 100%;
+  }
+
+  .main1 {
+      padding-left: 50px;
+      padding-top: 100px;
+      padding-right: 50px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+  }
+
+
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card1 img{
+      height: 200px;
+      width: auto;
+  }
+
+  .btn{
+    font-size: 1vw;
+    background-color: #34006D;
+    border: none;
+    border-radius: 58px ;
+    width: 6vw;
+    height: 4vw;
+    color:#D7D4FF;
+    outline: none;
+    transition: ease-in-out 0.1s;
+    
+}
+
+.btn a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.btn:hover{
+    background-color:#7B74E5;
+    color: #34006D;
+}
