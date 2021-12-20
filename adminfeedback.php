@@ -18,7 +18,7 @@
             <img src="assets/images/logo5.png">
             <ul class="nav-links">
                 <li><a href="accounts.php">Accounts</a></li>
-                <a href="adminhome.html"><li>Add new Account</li></a>
+                <a href="addaccount.php"><li>Add new Account</li></a>
                <a href="adminfeedback.php"> <li>Feedback</li></a>
             </ul>
             <a href="index.php"><button class="btn">Log Out</button></a>

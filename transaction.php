@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -18,9 +20,9 @@
             <img src="assets/images/logo5.png">
             <ul class="nav-links">
                 <li><a href="userhome.php">Accounts</a></li>
-                <li><a href="userhome.php">Cash Deposit</a></li>
+                <li><a href="deposit.php">Cash Deposit</a></li>
                 <li><a href="userhome.php">Cash Withdrawal</a></li>
-                <li><a href="userhome.php">Feedback</li>
+                <li><a href="feedback.php">Feedback</li>
             </ul>
             <a href="index.php"><button class="btn">Log Out</button></a>
         </nav>
@@ -31,16 +33,18 @@
 
 
 <div class="container">
-  <form action="feedback1.php" method="post">
-    <label for="fname">Name</label>
-    <input type="text" id="fname" name="name" placeholder="Your name..">
-
-
-    <label for="subject">Feedback</label>
-    <textarea id="subject" name="fdb" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+<form action="updatebal.php" method="POST">
+ Customer ID: <input type="text" id="cid" name="cid">
+ </select>
+ <br><br>
+ Withdraw Amount: <input type="text" id="amt" name="amt"></input><br><br>
+ <input type="submit"value="Submit" onclick="al()" ></input>
+ </form>
+ <script>
+ function al(){
+     alert("Cash Debited from account");
+ }
+ </script>
 </div>
 
 </body>

@@ -17,8 +17,9 @@
         <nav class="navbar">
             <img src="assets/images/logo5.png">
             <ul class="nav-links">
+            <a href="adminhome.php"> <li>Home</li></a>
                <li><a href="accounts.php">Accounts</a></li>
-               <a href="adminhome.php"><li>Add new Account</li></a>
+               <a href="addaccount.php"><li>Add new Account</li></a>
                <a href="adminfeedback.php"> <li>Feedback</li></a>
             </ul>
            <a href="index.php"><button class="btn">Log Out</button></a>
@@ -36,7 +37,7 @@
 
 
           <div class="card1" >
-            <img src="assets/images/statement.png"  >
+          <a href="addaccount.php"><img src="assets/images/statement.png"  ></a>
             <div class="container">
               <h4><b>Add new account</b></h4>
             </div>

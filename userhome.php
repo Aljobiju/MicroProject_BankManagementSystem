@@ -18,8 +18,8 @@
             <img src="assets/images/logo5.png">
             <ul class="nav-links">
                 <li><a href="#row4">Accounts</a></li>
-                <li><a href="#row4">Account Statements</a></li>
-                <li><a href="#row4">Fund Transfer</a></li>
+                <li><a href="deposit.php">Cash Deposit</a></li>
+                <li><a href="transaction.php">Cash Withdrawal</a></li>
                 <li><a href="feedback.php">Feedback</li>
             </ul>
            <a href="index.php"> <button class="btn">Log Out </button></a>
@@ -37,15 +37,15 @@
 
 
           <div class="card1" >
-            <img src="assets/images/statement.png"  >
+          <a href="deposit.php"><img src="assets/images/statement.png"  ></a>
             <div class="container">
-              <h4><b>Account Statements</b></h4>
+              <h4><b>Cash Deposit</b></h4>
             </div>
           </div>      
           <div class="card1" >
-            <img src="assets/images/tranfer.png"  >
+          <a href="transaction.php"><img src="assets/images/tranfer.png"></a>
             <div class="container">
-              <h4><b>Fund transfer</b></h4>
+              <h4><b>Cash Withdrawal</b></h4>
             </div>
           </div>
 
